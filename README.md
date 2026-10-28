@@ -56,3 +56,8 @@ Atualizar o requirements.txt	✅ Concluído
 Documentar o projeto no README.md	✅ Concluído
 Criar um commit	✅ Concluído
 Enviar os arquivos para o GitHub	✅ Concluído
+
+## Apos alterar um arquivo, executar os comandos abaixo
+1. git add README.md	Prepara o arquivo modificado.
+2. git commit -m "Update README"	Registra a alteração no computador.
+3. git push origin main	Envia a alteração ao GitHub.
