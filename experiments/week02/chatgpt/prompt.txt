@@ -1,0 +1,5 @@
+Write a contact form for a Flask 3.x application. Give me templates/contact.html and the route
+in app.py. Validate name, email and message on the server — not only in the browser. Reject
+an empty field and a malformed email address, re-rendering the form with an error message and an
+HTTP 400. On success show a confirmation page. **Do not use any package outside Flask and the
+Python standard library.** Output each file separately with its full path.

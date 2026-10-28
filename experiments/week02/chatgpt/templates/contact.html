@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+
+    <h1>Contact Us</h1>
+
+    {% if error %}
+        <p style="color: red;" role="alert">
+            {{ error }}
+        </p>
+    {% endif %}
+
+    <form action="{{ url_for('contact') }}" method="POST" novalidate>
+
+        <label for="name">Name:</label><br>
+        <input
+            type="text"
+            id="name"
+            name="name"
+            value="{{ name | default('') }}"
+        >
+        <br><br>
+
+        <label for="email">Email:</label><br>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            value="{{ email | default('') }}"
+        >
+        <br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea
+            id="message"
+            name="message"
+            rows="5"
+            cols="40"
+        >{{ message | default('') }}</textarea>
+        <br><br>
+
+        <button type="submit">Send Message</button>
+
+    </form>
+
+</body>
+</html>
