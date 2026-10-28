@@ -84,15 +84,15 @@ def home():
 @app.route("/about")
 def about():
     return """
-    <h1>My Task Organizer</h1>
+    <h1>My Contact Form Application</h1>
 
-    <p>If I could build an application in one evening instead of spending three months developing it, I would create a Task Organizer. I often have different responsibilities, deadlines, and personal activities to manage, so I would like a simple tool that keeps everything in one place.</p>
+    <p>If I could build an application in one evening instead of spending three months developing it, I would create a Contact Form Application. The purpose of this application would be to provide a simple and practical way for users to send messages through a website.</p>
 
-    <p>My application would allow users to add tasks, set deadlines, choose priorities, and mark activities as completed. It would display pending tasks clearly, helping people plan their day and avoid forgetting important commitments.</p>
+    <p>My application would allow users to enter their name, email address, and message. It would validate the information to ensure that all required fields are completed and that the email address has a valid format. If any information is missing or incorrect, the application would display an error message.</p>
 
-    <p>I would use Python, Flask, and AI assistance to create a basic working version in one evening. Later, I could add reminders, a calendar, and intelligent suggestions about which tasks to complete first.</p>
+    <p>I would use Python, Flask, HTML, and AI assistance to develop a basic working version in one evening. After a successful submission, the application would display a confirmation page. In the future, I could improve the design, store messages in a database, and add automatic email notifications.</p>
 
-    <p>This project would be useful in everyday life and would also help me improve my programming skills. Most importantly, it would show me how low-code tools and AI can turn a practical idea into something usable much faster.</p>
+    <p>This project would help me understand how web applications process user input, validate information, and provide feedback. It would also allow me to improve my programming skills and explore how low-code tools and AI-assisted development can make application development faster and more accessible.</p>
     """
 
 @app.route("/contact", methods=["GET", "POST"])
