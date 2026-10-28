@@ -43,3 +43,16 @@ The message is displayed in red.
    http://127.0.0.1:5000/
 
 8. To stop the application, press Ctrl + C in the terminal.
+
+## O que eu fiz até o momento
+Etapa	Situação
+Configurar o VS Code	✅ Concluído
+Criar o ambiente virtual Python	✅ Concluído
+Instalar o Flask	✅ Concluído
+Criar o arquivo app.py	✅ Concluído
+Personalizar a página com texto vermelho e coração	✅ Concluído
+Executar a aplicação no navegador	✅ Concluído
+Atualizar o requirements.txt	✅ Concluído
+Documentar o projeto no README.md	✅ Concluído
+Criar um commit	✅ Concluído
+Enviar os arquivos para o GitHub	✅ Concluído
